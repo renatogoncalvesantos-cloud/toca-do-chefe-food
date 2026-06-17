@@ -44,7 +44,7 @@ header h1{
     left:-280px;
     width:280px;
     height:100vh;
-    background:#111;
+    background-color:#111;
     transition:0.3s;
     z-index:1000;
     padding-top:80px;
@@ -161,4 +161,17 @@ header h1{
     .menu-btn{
         font-size:30px;
     }
+}
+
+.menu-btn{
+    display:block !important;
+    position:fixed !important;
+    top:20px !important;
+    right:20px !important;
+    background:red !important;
+    color:white !important;
+    border:2px solid yellow !important;
+    padding:10px !important;
+    font-size:30px !important;
+    z-index:9999 !important;
 }
